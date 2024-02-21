@@ -4,6 +4,88 @@
     box-sizing: border-box;
 }
 
-.header {
+.headerwrapper {
     display: flex;
+    width: 100%;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
+    font-size: 12px;
+}
+
+.wrappermiddle {
+    color: white;
+
+}
+
+.wrapperleftside {
+    color: white;
+    display: flex;
+
+}
+
+.wrapperleftside div {
+    padding: 0 7px;
+}
+
+.wrapperrightside ul {
+    display: flex;
+    list-style: none;
+}
+
+.wrapperrightside ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.wrapperrightside ul li {
+    padding: 0 5px;
+}
+
+.headermiddle {
+    width: 20%;
+}
+
+.headerleft ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerleft ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.headerleft ul li {
+    padding: 0 15px;
+}
+
+.header {
+    background-color: #e6eaed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 90px;
+}
+
+.headerright ul {
+    display: flex;
+    list-style: none;
+}
+
+.headerright ul a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.headerright ul li {
+    padding: 0 7px;
+}
+.frontbanner{
+    width: 100%;
+    height: 900px;
+    background:url(images/banner.webp) no-repeat;
 }
