@@ -133,6 +133,23 @@
 .description{
    
 }
-.s1.row1{
+.s1-row1{
     display: flex;
+}
+.item-icons ul{
+    display: flex;
+    list-style: none;
+}
+.item-icons ul a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.item-icons ul li {
+    padding: 3px 3px;
+}
+.item-icons button{
+    background-color:#363232;
+    border: none;
 }
