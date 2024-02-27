@@ -372,3 +372,11 @@
     width: 585px;
     text-align: right;
 }
+
+.footer-icons ul {
+    display: flex;
+}
+
+.footer-icons li {
+    padding: 5px;
+}
