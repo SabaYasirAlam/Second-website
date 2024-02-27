@@ -236,22 +236,67 @@
     font-size: 25px;
     font-weight: bold;
 }
-.categories{
+
+.categories {
     display: flex;
     justify-content: space-evenly;
 }
-.section3-subdiv1 img{
+
+.section3-subdiv1 img {
     width: 280px;
     height: 363;
 }
-.section3-subdiv1{
+
+.section3-subdiv1 {
     width: 580px;
-    height:746px ;
+    height: 746px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.section3-maindiv{
+
+.section3-maindiv {
     display: flex;
     justify-content: space-evenly;
+}
+
+.sale-item {
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff708e;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.hot-item {
+    position: relative;
+}
+
+.hot {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #e9a400;
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.section3-subdiv2 {
+    position: relative;
+}
+
+.holiday-ready {
+    background-color: white;
+    color: #000000;
+    position: absolute;
+    bottom: 60px;
+    left: 170px;
+    padding: 15px;
 }
