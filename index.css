@@ -300,3 +300,75 @@
     left: 170px;
     padding: 15px;
 }
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 310px;
+    margin-top: 80px;
+    background-color: #fafafa;
+    border-bottom: 1px dotted black;
+}
+
+.footer-list-items ul {
+    list-style: none;
+}
+
+.footer-list-items a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer-submain-div {
+    width: 20%;
+    padding-top: 60px;
+    line-height: 25px;
+}
+
+.footer-list-items {
+    margin-top: 20px;
+}
+
+.sub-heading {
+    margin: 15px 0;
+}
+
+.email-div input {
+    width: 260px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding-left: 18px;
+    margin-top: 15px;
+}
+
+.subscribe {
+    color: white;
+    background-color: black;
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #12130d;
+}
+
+.copyright {
+    color: white;
+    width: 585px;
+}
+
+.payments {
+    width: 585px;
+    text-align: right;
+}
