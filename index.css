@@ -13,9 +13,11 @@
     height: 35px;
     font-size: 12px;
 }
-a{
+
+a {
     text-decoration: none;
 }
+
 .ml-10 {
     margin-left: 10px;
 }
@@ -24,26 +26,12 @@ a{
     color: white;
 }
 
-.d-flex {
-    display: flex;
-}
-
-.headermiddle {
-    width: 20%;
-}
-
-.headerleft ul {
-    display: flex;
-    list-style: none;
-}
-
-.headerleft ul a {
-    text-decoration: none;
+.text-color-b {
     color: black;
 }
 
-.headerleft ul li {
-    padding: 0 15px;
+.d-flex {
+    display: flex;
 }
 
 .header {
@@ -58,19 +46,21 @@ a{
 .sidebar a {
     font-size: 60px;
     font-weight: bold;
-    text-decoration: none;
-    color: black;
 }
 
-.viewcollection {
+.b-styling {
     background-color: #111111;
     color: white;
     border: 0ch;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+
+.viewcollection {
     width: 230px;
     height: 40px;
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 40px;
 }
 
 
@@ -103,32 +93,19 @@ a{
     height: 400px;
 }
 
-.s1-row1 {
-    display: flex;
-    justify-content: space-evenly;
-    line-height: 30px;
+.m-lr {
+    margin: 0 2%;
 }
 
-.item-icons ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-}
-
-.item-icons ul a {
-    text-decoration: none;
-    color: white;
-}
-
-.item-icons ul li {
-    padding: 0 3px;
-}
-
-.item-icons button {
+.i-b-styling {
     background-color: #363232;
     border: none;
     padding: 7px;
     border-radius: 5px;
+}
+
+.f-properties {
+    justify-content: center;
 }
 
 .ratings {
@@ -137,44 +114,26 @@ a{
     text-align: center;
 }
 
-.description a {
-    text-decoration: none;
-    color: black;
-}
-
-.description {
+.text-align {
     text-align: center;
 }
 
-.price {
-    text-align: center;
-}
-
-.s1-row2 {
-    display: flex;
+.s1-row {
     justify-content: space-evenly;
     line-height: 30px;
+}
+
+.mt {
     margin-top: 70px;
 }
 
 .more button {
-    background-color: #111111;
-    border: 0ch;
     width: 170px;
     height: 35px;
     font-size: 15px;
-    font-weight: bold;
-    margin-top: 40px;
-
-}
-
-.more a {
-    color: white;
-    text-decoration: none;
 }
 
 .more {
-    display: flex;
     justify-content: center;
 }
 
@@ -201,14 +160,10 @@ a{
 }
 
 .name a {
-    text-decoration: none;
-    color: #000000;
     font-size: 25px;
-    font-weight: bold;
 }
 
 .categories {
-    display: flex;
     justify-content: space-evenly;
 }
 
@@ -220,13 +175,12 @@ a{
 .section3-subdiv1 {
     width: 580px;
     height: 746px;
-    display: flex;
+
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .section3-maindiv {
-    display: flex;
     justify-content: space-evenly;
 }
 
@@ -235,27 +189,23 @@ a{
 }
 
 .sale {
-    position: absolute;
-    top: 10px;
-    left: 10px;
     background-color: #ff708e;
-    color: white;
-    font-size: 12px;
-    padding: 5px;
 }
 
 .hot-item {
     position: relative;
 }
 
-.hot {
+.child {
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: #e9a400;
-    color: white;
     font-size: 12px;
     padding: 5px;
+}
+
+.hot {
+    background-color: #e9a400;
 }
 
 .section3-subdiv2 {
@@ -272,7 +222,6 @@ a{
 }
 
 .footer-wrapper {
-    display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 310px;
@@ -281,30 +230,22 @@ a{
     border-bottom: 1px dotted black;
 }
 
-.footer-list-items ul {
-    list-style: none;
-}
-
-.footer-list-items a {
-    text-decoration: none;
-    color: #000000;
-}
-
 .footer-submain-div {
     width: 20%;
     padding-top: 60px;
     line-height: 25px;
 }
 
-.footer-list-items {
+.m-t {
     margin-top: 20px;
 }
 
-.sub-heading {
-    margin: 15px 0;
+.footer-list-items {
+    margin-top: 20px;
+    flex-direction: column;
 }
 
-.email-div input {
+.email-box {
     width: 260px;
     height: 40px;
     background-color: white;
@@ -314,18 +255,13 @@ a{
 }
 
 .subscribe {
-    color: white;
-    background-color: black;
-    border: none;
     width: 100px;
     height: 40px;
     padding: 5px;
     margin-top: 15px;
-    font-weight: bold;
 }
 
 .footer {
-    display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
@@ -334,19 +270,10 @@ a{
 }
 
 .copyright {
-    color: white;
     width: 585px;
 }
 
 .payments {
-    width: 585px;
+    width: 505px;
     text-align: right;
-}
-
-.footer-icons ul {
-    display: flex;
-}
-
-.footer-icons li {
-    padding: 5px;
 }
