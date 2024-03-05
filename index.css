@@ -43,18 +43,12 @@ a {
     height: 90px;
 }
 
-.sidebar a {
-    font-size: 60px;
-    font-weight: bold;
-}
-
 .b-styling {
     background-color: #111111;
     color: white;
     border: 0ch;
     font-weight: bold;
     margin-top: 40px;
-
 }
 
 .viewcollection {
@@ -63,34 +57,27 @@ a {
     font-size: 20px;
 }
 
-
-.frontbanner {
-    background: url(images/banner.webp) no-repeat;
-    background-size: 100% auto;
+.front-banner {
     width: 100%;
     height: 600px;
     border: #111111;
     position: relative;
 }
 
-.sidebar {
+.side-bar {
     width: 30%;
     position: absolute;
     top: 18%;
     left: 3%;
-
+    font-size: 60px;
+    font-weight: bold;
 }
 
-.sections {
+.section-title {
     text-align: center;
     width: 100%;
     height: 70px;
     margin-top: 80px;
-}
-
-.item img {
-    width: 300px;
-    height: 400px;
 }
 
 .m-lr {
@@ -108,10 +95,8 @@ a {
     justify-content: center;
 }
 
-.ratings {
+.rating-star-color {
     color: #ffbe00;
-    font-size: 20px;
-    text-align: center;
 }
 
 .text-align {
@@ -132,29 +117,20 @@ a {
     margin-bottom: 30px;
 }
 
-.more button {
+.more-button {
     width: 170px;
     height: 35px;
     font-size: 15px;
 }
 
-.more {
-    justify-content: center;
-}
-
-.more-categories img {
-    width: 236px;
-    height: 316px;
-}
-
-.more-categories {
+.p-r{
     position: relative;
 }
 
 .name {
     position: absolute;
     bottom: 30px;
-    left: 20px;
+    left: 20%;
     background-color: #fcfdfc;
     opacity: 0.6;
     width: 196px;
@@ -162,43 +138,32 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.name a {
     font-size: 25px;
 }
 
-.categories {
-    justify-content: space-evenly;
-}
-
-.section3-subdiv1 img {
-    width: 280px;
-    height: 363;
-}
-
-.section3-subdiv1 {
-    width: 580px;
-    height: 746px;
-
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.section3-maindiv {
-    justify-content: space-evenly;
+.itemsdiv.mb-30 {
+    width: 300px;
 }
 
 .sale-item {
-    position: relative;
+    margin-right:10px;
+    width: 47%;
 }
 
 .sale {
     background-color: #ff708e;
 }
 
-.hot-item {
-    position: relative;
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.w-48-per{
+    width: 48%;
+}
+
+.w-100-per{
+    width: 100%;
 }
 
 .child {
@@ -213,8 +178,8 @@ a {
     background-color: #e9a400;
 }
 
-.section3-subdiv2 {
-    position: relative;
+.w-50-per{
+    width: 50%;
 }
 
 .holiday-ready {
@@ -241,6 +206,9 @@ a {
     line-height: 25px;
 }
 
+ul{
+    list-style: none;
+}
 .m-t {
     margin-top: 20px;
 }
@@ -272,10 +240,6 @@ a {
     width: 100%;
     height: 100px;
     background-color: #12130d;
-}
-
-.copyright {
-    width: 585px;
 }
 
 .payments {
