@@ -121,10 +121,15 @@ a {
 .s1-row {
     justify-content: space-evenly;
     line-height: 30px;
+    flex-wrap: wrap;
 }
 
 .mt {
     margin-top: 70px;
+}
+
+.mb-30{
+    margin-bottom: 30px;
 }
 
 .more button {
